@@ -1,38 +1,33 @@
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-.navHeader {
+.nav-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.25rem;
 }
-.logoBtn {
+.logo-btn {
   background: transparent;
   border: none;
   outline: none;
 }
-.logoBtn:hover {
+.logo-btn:hover {
   cursor: pointer;
 }
-.logoIcon {
+.logo-icon {
   color: var(--primaryColor);
   font-size: 1.5rem;
 }
 
-.navLinks {
+.nav-links {
   list-style-type: none;
   transition: var(--mainTransition);
   height: 0;
   overflow: hidden;
 }
-.showNav {
+.show-nav {
   height: 216px;
 }
-.navLinks a {
+.nav-links a {
   display: block;
   padding: 1rem 1.25rem;
   text-decoration: none;
@@ -42,10 +37,10 @@
   font-weight: bold;
   letter-spacing: var(--mainSpacing);
 }
-.navLinks a:hover {
+.nav-links a:hover {
   color: var(--primaryColor);
 }
-.navSocialLinks {
+.nav-social-links {
   display: none;
 }
 @media screen and (min-width: 576px) {
@@ -55,31 +50,31 @@
 }
 
 @media screen and (min-width: 992px) {
-  .logoBtn {
+  .logo-btn {
     display: none;
   }
-  .navCenter {
-    width: 90%;
+  .nav-center {
+    max-width: 1170px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .navLinks {
+  .nav-links {
     height: auto;
     display: flex;
   }
-  .navSocialLinks {
+  .nav-social-links {
     display: flex;
     line-height: 0;
   }
-  .navSocialLinks a {
+  .nav-social-links a {
     color: var(--primaryColor);
     margin: 0 0.5rem;
     font-size: 1.2rem;
     transition: var(--mainTransition);
   }
-  .navSocialLinks a:hover {
+  .nav-social-links a:hover {
     color: var(--mainBlack);
     transform: translateY(-5px);
   }
