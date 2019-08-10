@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <section className={styles.services}>
       <TitleStyled title="our" subtitle="services" />
-      <div classNam={styles.center}>
+      <div className={styles.center}>
         {services.map((service, i) => (
           <article key={`${service.title}${i}`} className={styles.service}>
             <span>{service.icon}</span>
