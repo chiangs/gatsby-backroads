@@ -6,6 +6,11 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: "Backroads",
+    description: "Explore awesome worldwide tours & discover unique adventures",
+    author: "@chiangse",
+  },
   plugins: [
     {
       resolve: `gatsby-plugin-styled-components`,
