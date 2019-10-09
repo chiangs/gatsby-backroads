@@ -1,0 +1,55 @@
+.Project {
+  --accent: #ef7868;
+  --main: #283237;
+}
+
+.Project {
+  max-width: 20vw;
+  position: fixed;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  z-index: 9000;
+  background-color: var(--main);
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 2px rgba(0, 0, 0, 0.2),
+    0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.1),
+    0 16px 16px rgba(0, 0, 0, 0.05);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: var(--accent);
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: var(--accent);
+  color: var(--main);
+  display: inline-block;
+  padding: 0 5px;
+  border-radius: 15px;
+}
+
+.Project__Tech {
+  padding: 10px;
+}
+
+button.CloseButton {
+  cursor: pointer;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+  color: white;
+}

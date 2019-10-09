@@ -1,4 +1,3 @@
-
 .nav-header {
   display: flex;
   justify-content: space-between;
@@ -43,9 +42,25 @@
 .nav-social-links {
   display: none;
 }
+
+.SecIcon {
+  cursor: pointer;
+  min-width: 50px;
+  max-width: 100px;
+  height: auto;
+}
+
 @media screen and (min-width: 576px) {
   .navbar {
     padding: 0 2rem;
+  }
+  .SecIcon {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    min-width: 50px;
+    max-width: 100px;
+    height: auto;
   }
 }
 
